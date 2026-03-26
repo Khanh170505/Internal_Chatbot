@@ -1,0 +1,28 @@
+﻿# Python / virtual env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local runtime artifacts
+app.db
+vectorstore/
+.streamlit/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Exclude non-essential docs and test assets
+*.md
+!README.md
+tests/
+scripts/
+data/
+
+# Planning docs
+idea.md
+project1_brainstorm_ai_knowledge_copilot.md
+hybrid_*.md
+rules.md
